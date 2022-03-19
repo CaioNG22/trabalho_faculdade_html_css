@@ -14,6 +14,12 @@ img {
   height: 100%;
 }
 
+body {
+  background-image: url("/trabalhosGitHub/trabalho_faculdade_html_css/html/receitas-de-minas/img/food-wallpaper-200802192415251920x1200.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 header {
   text-align: center;
   height: 40px;
@@ -22,6 +28,8 @@ header {
   border-radius: 10px;
   color: white;
   margin-top: 10px;
+  position: sticky;
+  top: 0;
 }
 
 main {
@@ -31,11 +39,12 @@ main {
 }
 
 .receitas {
+  background-color: aliceblue;
   width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 30px;
   justify-items: center;
   margin: 10px auto;
   margin-bottom: 20px;
-  padding-bottom: 30px;
+  padding: 16px 0;
 }
